@@ -9,7 +9,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-[**Live Demo →**](https://vishalkushwaha.vercel.app)
+[**Live Demo →**](https://vishal-kushwaha-info.netlify.app/)
 
 </div>
 
@@ -161,12 +161,23 @@ Replace the images in the **`public/`** folder:
 
 ## 🌐 Deployment
 
-### Deploy on Vercel (Recommended)
+### Deploy on Netlify (Recommended)
 
 1. Push your code to GitHub
-2. Go to [vercel.com/new](https://vercel.com/new)
-3. Import your repository
-4. Click **Deploy** — that's it! ✅
+2. Go to [app.netlify.com](https://app.netlify.com/)
+3. Click **"Add new site"** → **"Import an existing project"**
+4. Connect your GitHub and select the `portfolio` repository
+5. Configure build settings:
+
+   | Setting | Value |
+   |---|---|
+   | **Build command** | `npm run build` |
+   | **Publish directory** | `.next` |
+
+6. Click **"Deploy site"** ✅
+
+> **Note:** Install the **Next.js plugin** for Netlify for full support.  
+> Go to **Site settings → Build & deploy → Plugins** → Search and add `@netlify/plugin-nextjs`
 
 ### Other Platforms
 
